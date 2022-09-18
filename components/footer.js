@@ -1,4 +1,4 @@
-import Link from "next/link";
+import NextLink from "next/link";
 
 export default function Footer() {
     return (
@@ -9,12 +9,12 @@ export default function Footer() {
                         <div className="col-lg-4 col-md-6 col-sm-12 col-12 mb-4 mb-md-0">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <Link href="/">
+                                    <NextLink href="/">
                                         <a>
                                             <img src="/assets/images/logo/logo.png" />
                                             <span>Lebel AirHotels</span>
                                         </a>
-                                    </Link>
+                                    </NextLink>
                                 </div>
                                 <p>On the other hand, lorem ipsum dolor sit amet consectetur adipisicing elit. Error, et
                                     dignissimos quas soluta atque distinctio mollitia sequi excepturi officia molestias
@@ -27,11 +27,11 @@ export default function Footer() {
                                     <h3>Company</h3>
                                 </div>
                                 <ul>
-                                    <li><Link href="/"><a>Home</a></Link></li>
-                                    <li><Link href="/about"><a>About</a></Link></li>
-                                    <li><Link href="/listing"><a>Hotels</a></Link></li>
-                                    <li><Link href="/login"><a>Login</a></Link></li>
-                                    <li><Link href="/profile"><a>Profile</a></Link></li>
+                                    <li><NextLink href="/"><a>Home</a></NextLink></li>
+                                    <li><NextLink href="/about"><a>About</a></NextLink></li>
+                                    <li><NextLink href="/listing"><a>Hotels</a></NextLink></li>
+                                    <li><NextLink href="/login"><a>Login</a></NextLink></li>
+                                    <li><NextLink href="/profile"><a>Profile</a></NextLink></li>
                                 </ul>
                             </div>
                         </div>

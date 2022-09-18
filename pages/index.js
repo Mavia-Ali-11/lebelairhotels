@@ -4,7 +4,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Testimonials from '../components/testimonials';
 
-import Link from 'next/Link';
+import NextLink from 'next/link';
 
 export default function Home() {
 
@@ -860,9 +860,9 @@ export default function Home() {
                                                                <div className="cta-text">
                                                                       <h2>Want To Know More About Us?</h2>
                                                                       <div className="btns">
-                                                                             <Link href="/about">
+                                                                             <NextLink href="/about">
                                                                                     <a className="custom-btn">ABOUT US</a>
-                                                                             </Link>
+                                                                             </NextLink>
                                                                       </div>
                                                                </div>
                                                         </div>

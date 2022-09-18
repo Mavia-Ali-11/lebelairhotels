@@ -1,7 +1,7 @@
 import Head from '../components/head';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import Link from 'next/link';
+import NextLink from 'next/link';
 
 export default function Listing() {
 
@@ -168,9 +168,9 @@ export default function Listing() {
                                                         </div>
                                                     </div>
                                                     <div className="pro-featured">
-                                                        <Link href="/profile#share-review">
+                                                        <NextLink href="/profile#share-review">
                                                             <a className="custom-btn">rate this hotel</a>
-                                                        </Link>
+                                                        </NextLink>
                                                     </div>
                                                     <a href="#" className="add-cart thumb">
                                                         <i className="fa fa-heart"></i>
@@ -329,9 +329,9 @@ export default function Listing() {
                                                         </div>
                                                     </div>
                                                     <div className="pro-featured">
-                                                        <Link href="/profile#share-review">
+                                                        <NextLink href="/profile#share-review">
                                                             <a className="custom-btn">rate this hotel</a>
-                                                        </Link>
+                                                        </NextLink>
                                                     </div>
                                                     <a href="#" className="add-cart thumb">
                                                         <i className="fa fa-heart"></i>
@@ -489,9 +489,9 @@ export default function Listing() {
                                                         </div>
                                                     </div>
                                                     <div className="pro-featured">
-                                                        <Link href="/profile#share-review">
+                                                        <NextLink href="/profile#share-review">
                                                             <a className="custom-btn">rate this hotel</a>
-                                                        </Link>
+                                                        </NextLink>
                                                     </div>
                                                     <a href="#" className="add-cart thumb">
                                                         <i className="fa fa-heart"></i>
@@ -649,9 +649,9 @@ export default function Listing() {
                                                         </div>
                                                     </div>
                                                     <div className="pro-featured">
-                                                        <Link href="/profile#share-review">
+                                                        <NextLink href="/profile#share-review">
                                                             <a className="custom-btn">rate this hotel</a>
-                                                        </Link>
+                                                        </NextLink>
                                                     </div>
                                                     <a href="#" className="add-cart thumb">
                                                         <i className="fa fa-heart"></i>
@@ -831,9 +831,9 @@ export default function Listing() {
                                                         </div>
                                                     </div>
                                                     <div className="pro-featured">
-                                                        <Link href="/profile#share-review">
+                                                        <NextLink href="/profile#share-review">
                                                             <a className="custom-btn">rate this hotel</a>
-                                                        </Link>
+                                                        </NextLink>
                                                     </div>
                                                     <a href="#" className="add-cart thumb">
                                                         <i className="fa fa-heart"></i>
@@ -990,9 +990,9 @@ export default function Listing() {
                                                         </div>
                                                     </div>
                                                     <div className="pro-featured">
-                                                        <Link href="/profile#share-review">
+                                                        <NextLink href="/profile#share-review">
                                                             <a className="custom-btn">rate this hotel</a>
-                                                        </Link>
+                                                        </NextLink>
                                                     </div>
                                                     <a href="#" className="add-cart thumb">
                                                         <i className="fa fa-heart"></i>

@@ -1,4 +1,3 @@
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import '../public/assets/css/font-awesome.min.css';
 import '../public/assets/css/flaticon.css';
 import '../public/assets/css/bootstrap.min.css';

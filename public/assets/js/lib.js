@@ -18,7 +18,6 @@
         }
     }
 
-
     //Setting hero slider
     function heroSlider() {
         if ($(".hero-slider").length) {
@@ -41,7 +40,6 @@
             mainHeader = $('#sticky-header'),
             mainHeaderHeight = mainHeader.innerHeight();
 
-        // console.log(mainHeader.innerHeight());
         if (scroll > 1) {
             $("#sticky-header").addClass("sticky");
         } else {
@@ -98,15 +96,13 @@
     /*==========================================================================
         WHEN DOCUMENT LOADING
     ==========================================================================*/
-    $(window).on('load', function () {
 
-        pageLoader();
+    pageLoader();
 
-        if (window.location.pathname == "/") {
-            sliderBgSetting();
-        }
+    if (window.location.pathname == "/") {
+        sliderBgSetting();
+    }
 
-    });
 
     /*------------------------------------------
         = BACK TO TOP BTN SETTING
@@ -129,7 +125,6 @@
         return false;
     })
 })(window.jQuery);
-
 
 // Event listeners
 
@@ -203,4 +198,6 @@ $(document).on('keydown', '.dropdown-select', function (event) {
         }
         return false;
     }
+    
 });
+

@@ -9,10 +9,12 @@ export default function Footer() {
                         <div className="col-lg-4 col-md-6 col-sm-12 col-12 mb-4 mb-md-0">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <a href="/">
-                                        <img src="/assets/images/logo/logo.png" />
-                                        <span>Lebel AirHotels</span>
-                                    </a>
+                                    <Link href="/">
+                                        <a>
+                                            <img src="/assets/images/logo/logo.png" />
+                                            <span>Lebel AirHotels</span>
+                                        </a>
+                                    </Link>
                                 </div>
                                 <p>On the other hand, lorem ipsum dolor sit amet consectetur adipisicing elit. Error, et
                                     dignissimos quas soluta atque distinctio mollitia sequi excepturi officia molestias
@@ -25,11 +27,11 @@ export default function Footer() {
                                     <h3>Company</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="/about">About</a></li>
-                                    <li><a href="/listing">Hotels</a></li>
-                                    <li><a href="/login">Login</a></li>
-                                    <li><a href="/profile">Profile</a></li>
+                                    <li><Link href="/"><a>Home</a></Link></li>
+                                    <li><Link href="/about"><a>About</a></Link></li>
+                                    <li><Link href="/listing"><a>Hotels</a></Link></li>
+                                    <li><Link href="/login"><a>Login</a></Link></li>
+                                    <li><Link href="/profile"><a>Profile</a></Link></li>
                                 </ul>
                             </div>
                         </div>

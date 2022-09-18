@@ -72,7 +72,7 @@ export default function About() {
                                             <i className="fi flaticon-key"></i>
                                         </div>
                                         <div>
-                                            <h2><CountUp start="0" end="270" enableScrollSpy={true} />+</h2>
+                                            <h2><CountUp start="0" end="270" />+</h2>
                                         </div>
                                         <p>New Visitors</p>
                                     </div>
@@ -81,7 +81,7 @@ export default function About() {
                                             <i className="fi flaticon-staff"></i>
                                         </div>
                                         <div>
-                                            <h2><CountUp start="0" end="6831" enableScrollSpy={true} /></h2>
+                                            <h2><CountUp start="0" end="6831" /></h2>
                                         </div>
                                         <p>Happy Customers</p>
                                     </div>
@@ -90,7 +90,7 @@ export default function About() {
                                             <i className="fi flaticon-bowling"></i>
                                         </div>
                                         <div>
-                                        <h2><CountUp start="0" end="164" enableScrollSpy={true} /></h2>
+                                        <h2><CountUp start="0" end="164" /></h2>
                                         </div>
                                         <p>Organized Tours</p>
                                     </div>
@@ -99,7 +99,7 @@ export default function About() {
                                             <i className="fi flaticon-pool"></i>
                                         </div>
                                         <div>
-                                            <h2><CountUp start="0" end="5047" enableScrollSpy={true} />+</h2>
+                                            <h2><CountUp start="0" end="5047" />+</h2>
                                         </div>
                                         <p>Hotels Collection</p>
                                     </div>
@@ -189,14 +189,6 @@ export default function About() {
 
                 <Footer />
             </div>
-
-            <Script src="/assets/js/jquery.min.js" />
-            <Script src="/assets/js/jquery-plugin-collection.js" />
-            <Script src="/assets/js/jquery-ui.min.js" />
-            <Script src="/assets/js/jquery.slicknav.min.js" />
-            <Script src="/assets/js/lib.js" />
-            <Script src="/assets/js/bootstrap.min.js" />
-            <Script src="/assets/js/script.js" />
         </>
     )
 }

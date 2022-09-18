@@ -116,6 +116,10 @@
       padding-left: 13px;
     }
 
+    .mobile_menu .slicknav_nav .special-btn.green a {
+      border-radius: 0 0 5px 5px;
+    }
+
     .lang-dropdown {
       margin-top: 15px;
     }
@@ -150,8 +154,9 @@
 
   @media(max-width: 767px) {
     .breadcumb-wrap h2 {
-      font-size: 25px;
+      font-size: 27px;
       line-height: 36px;
+      margin-top: 36px;
     }
 
     .breadcumb-area.listing-bc {

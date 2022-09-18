@@ -1,8 +1,3 @@
-/*---------------------------
-  Fonts
-----------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&amp;display=swap');
-
 body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
@@ -2084,7 +2079,7 @@ breadcumb-style
   min-height: 500px;
 }
 .breadcumb-area.listing-bc h2 {
-  font-size: 55px;
+  font-size: 52px;
 }
 .breadcumb-area.listing-bc p {
   color: #fff;
@@ -2108,7 +2103,7 @@ breadcumb-style
 .breadcumb-wrap h2 {
     font-weight: bold;
     font-size: 50px;
-    line-height: 64px;
+    line-height: 60px;
     text-align: center;
     color: #FFFFFF;
     margin-top: 30px;
@@ -3747,7 +3742,7 @@ page loader
 .social-shares i {
   cursor: pointer;
   color: #08254c;
-  margin-left: 4px;
+  margin-left: 6px;
   transition: 0.3s;
   transform: translateY(1px);
 }
@@ -4199,7 +4194,7 @@ label:hover ~ input:checked ~ label { color: #F0C808;  }
 }
 .map-modal .close-map {
   top: 30px;
-  left: 30px;
+  right: 30px;
   border: 0px;
   color: #fff;
   cursor: pointer;
@@ -4335,6 +4330,14 @@ label:hover ~ input:checked ~ label { color: #F0C808;  }
 .login-wrap .options button i {
   color: #fff;
   margin-right: 4px;
+}
+.login-area label {
+  transition: 0.3s;
+}
+.login-area label:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #06aed5;
 }
 .login-area button.btn-google {
   background-color: #DB4437 ;

@@ -1,4 +1,17 @@
+import { useEffect } from 'react';
+import Link from "next/link";
+
 export default function Navbar() {
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = "/assets/js/lib.js";
+        script.async = true;
+        document.body.appendChild(script);
+        return () => {
+            document.body.removeChild(script);
+        }
+    }, []);
+
     return (
         <header>
             <div className="header-area" id="sticky-header">
@@ -6,18 +19,20 @@ export default function Navbar() {
                     <div className="row">
                         <div className="col-xl-3 col-lg-4 col-md-6 col-8">
                             <div className="logo">
-                                <a href="/">
-                                    <img src="/assets/images/logo/logo.png" />
-                                    <span>Lebel AirHotels</span>
-                                </a>
+                                <Link href="/">
+                                    <a>
+                                        <img src="/assets/images/logo/logo.png" />
+                                        <span>Lebel AirHotels</span>
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-xl-9 col-lg-8 d-none d-lg-block">
                             <div className="main-menu">
                                 <nav className="nav_mobile_menu">
                                     <ul>
-                                        <li className="special-btn"><a href="/login">Signin</a></li>
-                                        <li className="special-btn green"><a href="signup.html">Signup</a></li>
+                                        <li className="special-btn"><Link href="/login"><a>Signin</a></Link></li>
+                                        <li className="special-btn green"><Link href="/signup"><a>Signup</a></Link></li>
                                         <li className="lang-dropdown" id="lang-dropdown">
                                             <div>
                                                 <a className="en"><span>ENG</span></a>

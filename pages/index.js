@@ -4,7 +4,10 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Testimonials from '../components/testimonials';
 
+import Link from 'next/Link';
+
 export default function Home() {
+
        return (
               <>
                      <Head title="Lebel AirHotels - Find best hotels to stay" />
@@ -857,7 +860,9 @@ export default function Home() {
                                                                <div className="cta-text">
                                                                       <h2>Want To Know More About Us?</h2>
                                                                       <div className="btns">
-                                                                             <a href="/about" className="custom-btn">ABOUT US</a>
+                                                                             <Link href="/about">
+                                                                                    <a className="custom-btn">ABOUT US</a>
+                                                                             </Link>
                                                                       </div>
                                                                </div>
                                                         </div>

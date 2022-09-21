@@ -126,7 +126,7 @@ export default function Listing() {
                     </div>
                 </div>
 
-                <div className="key-takeaways section-padding pb-0 mt-4">
+                <div className="key-takeaways section-padding pb-0">
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
